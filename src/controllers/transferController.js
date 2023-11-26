@@ -1,4 +1,4 @@
-import { TransactionModel } from "../models/TransactionModel.js";
+import { TransactionModel } from "../models/transactionModel.js";
 import CustomError from "../utils/error/CustomError.js";
 import { tryCatch } from "../utils/helpers/tryCatch.js";
 import { transactionSchema } from "../validators/transactionValidators.js";
