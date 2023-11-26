@@ -81,7 +81,7 @@ export const verifyTransfer = tryCatch(async (req, res) => {
       }
     );
 
-    return res.status(200).json({ data });
+    return res.status(200).json({ data: transaction });
   }
 });
 
